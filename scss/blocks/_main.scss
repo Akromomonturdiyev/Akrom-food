@@ -1,0 +1,74 @@
+// food__section part started
+.food__section {
+    background: #fff5ec;
+}
+
+.food__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.food__title {
+    width: 506px;
+    height: 179px;
+    margin: 0;
+    flex-shrink: 0;
+    color: #2e266f;
+    font-family: "Poppins";
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.05;
+}
+
+.food__info {
+    display: inline-block;
+    width: 700px;
+    height: 157px;
+    align-items: center;
+    flex-shrink: 0;
+    color: #2e266f;
+    font-family: "Poppins";
+    font-size: 72px;
+    font-style: normal;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 90px; /* 125% */
+    text-transform: capitalize;
+}
+
+.food__form{
+    display: inline-block;
+}
+
+.food__label {
+    width: 670px;
+    height: 90px;
+    flex-shrink: 0;
+    border: 2px solid #fff;
+    padding: 36px;
+    background: #fff;
+}
+
+.food__search-input {
+  outline: none;
+  border: none;
+  background-color: none;
+}
+
+
+// food__section part finished
