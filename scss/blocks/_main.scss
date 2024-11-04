@@ -1,6 +1,6 @@
 // food__section part started
-.hero{
-    background: #FFF5EC;
+.hero {
+    background: #fff5ec;
 }
 
 .food__wrapper {
@@ -18,6 +18,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.food__item {
+    display: flex;
+    flex-direction: column;
 }
 
 .food__title {
@@ -50,25 +55,5 @@
     line-height: 90px; /* 125% */
     text-transform: capitalize;
 }
-
-.food__form{
-    display: inline-block;
-}
-
-.food__label {
-    width: 670px;
-    height: 90px;
-    flex-shrink: 0;
-    border: 2px solid #fff;
-    padding: 36px;
-    background: #fff;
-}
-
-.food__search-input {
-  outline: none;
-  border: none;
-  background-color: none;
-}
-
 
 // food__section part finished
